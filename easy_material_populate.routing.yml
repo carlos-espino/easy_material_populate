@@ -1,0 +1,8 @@
+easy_material_populate.example:
+  path: '/easy-material-populate/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\easy_material_populate\Controller\EasyMaterialPopulateController::build'
+  requirements:
+    _permission: 'access content'
+
