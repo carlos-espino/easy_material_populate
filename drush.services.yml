@@ -1,0 +1,5 @@
+services:
+  easy_material_generate.commands:
+    class: \Drupal\easy_material_generate\Commands\CustomCommands
+    tags:
+      - { name: drush.command }

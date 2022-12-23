@@ -1,0 +1,5 @@
+services:
+  easy_material.generate:
+    class: Drupal\easy_material_generate\EasyMaterialGenerateTools
+
+

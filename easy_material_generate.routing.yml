@@ -1,0 +1,8 @@
+easy_material_generate.example:
+  path: '/easy-material-generate/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\easy_material_generate\Controller\EasyMaterialGenerateController::build'
+  requirements:
+    _permission: 'access content'
+
